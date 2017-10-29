@@ -1,0 +1,788 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>IFB - COMPUTAÇÃO GRÁFICA - LISTA 1: Referência do Arquivo Q8Selecao.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">IFB - COMPUTAÇÃO GRÁFICA - LISTA 1
+   </div>
+   <div id="projectbrief">Aluno: George Araújo</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Membros&#160;dos&#160;Arquivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência do Arquivo Q8Selecao.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Esse código, utilizando o programa preenchimento.c (dado em sala de aula) como referência, desenha numa janela com fundo branco, de dimensões 256x256 pixels, quatro polígonos com as mesmas coordenadas dos polígonos do programa de referência.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;GL/glut.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para Q8Selecao.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="Q8Selecao_8c__incl.png" border="0" usemap="#Q8Selecao_8c" alt=""/></div>
+<map name="Q8Selecao_8c" id="Q8Selecao_8c">
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a02fd73d861ef2e4aabb38c0c9ff82947"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a02fd73d861ef2e4aabb38c0c9ff82947">init</a> ()</td></tr>
+<tr class="memdesc:a02fd73d861ef2e4aabb38c0c9ff82947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função inicializa propriedades de rendering.  <a href="#a02fd73d861ef2e4aabb38c0c9ff82947">Mais...</a><br /></td></tr>
+<tr class="separator:a02fd73d861ef2e4aabb38c0c9ff82947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7ba2f69afb2d954545f64c7fe24b14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#aef7ba2f69afb2d954545f64c7fe24b14">keyboard</a> (unsigned char key, int x, int y)</td></tr>
+<tr class="memdesc:aef7ba2f69afb2d954545f64c7fe24b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função callBack keyboard trata entrada do telcado.  <a href="#aef7ba2f69afb2d954545f64c7fe24b14">Mais...</a><br /></td></tr>
+<tr class="separator:aef7ba2f69afb2d954545f64c7fe24b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35b484f447d00f03a1fe1b9adc3d070"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#ab35b484f447d00f03a1fe1b9adc3d070">onClickMouse</a> (int button, int state, int x, int y)</td></tr>
+<tr class="memdesc:ab35b484f447d00f03a1fe1b9adc3d070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função callBack onClickMouse trata entrada dos botões do mouse.  <a href="#ab35b484f447d00f03a1fe1b9adc3d070">Mais...</a><br /></td></tr>
+<tr class="separator:ab35b484f447d00f03a1fe1b9adc3d070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f7769e0779909aa80a7651ee0f8b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a40f7769e0779909aa80a7651ee0f8b71">desenhaPoligono</a> (int minX, int maxX, int minY, int maxY)</td></tr>
+<tr class="memdesc:a40f7769e0779909aa80a7651ee0f8b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função desenha os polígonos a partir das coordenadas máximas e mínimas.  <a href="#a40f7769e0779909aa80a7651ee0f8b71">Mais...</a><br /></td></tr>
+<tr class="separator:a40f7769e0779909aa80a7651ee0f8b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d3d2da5704bc93ed6cfe8ebcf896fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a72d3d2da5704bc93ed6cfe8ebcf896fb">desenhaBorda</a> (int minX, int maxX, int minY, int maxY)</td></tr>
+<tr class="memdesc:a72d3d2da5704bc93ed6cfe8ebcf896fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função desenha as bordas a partir das coordenadas máximas e mínimas.  <a href="#a72d3d2da5704bc93ed6cfe8ebcf896fb">Mais...</a><br /></td></tr>
+<tr class="separator:a72d3d2da5704bc93ed6cfe8ebcf896fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5b20fed15743656bb6d2e6a6ea6269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a1e5b20fed15743656bb6d2e6a6ea6269">display</a> ()</td></tr>
+<tr class="memdesc:a1e5b20fed15743656bb6d2e6a6ea6269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função callBack display desenha as pritivas openGL.  <a href="#a1e5b20fed15743656bb6d2e6a6ea6269">Mais...</a><br /></td></tr>
+<tr class="separator:a1e5b20fed15743656bb6d2e6a6ea6269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="memdesc:a3c04138a5bfe5d72780bb7e82a18e627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função principal.  <a href="#a3c04138a5bfe5d72780bb7e82a18e627">Mais...</a><br /></td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a1f71b495171fb688cd4f37b7582093a4"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a1f71b495171fb688cd4f37b7582093a4">r1</a> = 1.0</td></tr>
+<tr class="memdesc:a1f71b495171fb688cd4f37b7582093a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha do poligono 1.  <a href="#a1f71b495171fb688cd4f37b7582093a4">Mais...</a><br /></td></tr>
+<tr class="separator:a1f71b495171fb688cd4f37b7582093a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6637f2229ffbbe43aa5308779f466b43"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a6637f2229ffbbe43aa5308779f466b43">g1</a> = 1.0</td></tr>
+<tr class="memdesc:a6637f2229ffbbe43aa5308779f466b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde do poligono 1.  <a href="#a6637f2229ffbbe43aa5308779f466b43">Mais...</a><br /></td></tr>
+<tr class="separator:a6637f2229ffbbe43aa5308779f466b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23f97412ac466c7e1a6658c37a83758"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#ac23f97412ac466c7e1a6658c37a83758">b1</a> = 0.0</td></tr>
+<tr class="memdesc:ac23f97412ac466c7e1a6658c37a83758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul do poligono 1.  <a href="#ac23f97412ac466c7e1a6658c37a83758">Mais...</a><br /></td></tr>
+<tr class="separator:ac23f97412ac466c7e1a6658c37a83758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66213c246779913c9484d2a7e57dc615"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a66213c246779913c9484d2a7e57dc615">r2</a> = 1.0</td></tr>
+<tr class="memdesc:a66213c246779913c9484d2a7e57dc615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha do poligono 2.  <a href="#a66213c246779913c9484d2a7e57dc615">Mais...</a><br /></td></tr>
+<tr class="separator:a66213c246779913c9484d2a7e57dc615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f9826d70ceca0886522e84332cd2739"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a3f9826d70ceca0886522e84332cd2739">g2</a> = 1.0</td></tr>
+<tr class="memdesc:a3f9826d70ceca0886522e84332cd2739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde do poligono 2.  <a href="#a3f9826d70ceca0886522e84332cd2739">Mais...</a><br /></td></tr>
+<tr class="separator:a3f9826d70ceca0886522e84332cd2739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d6252e94840d797915ee185ec525ba"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#ac1d6252e94840d797915ee185ec525ba">b2</a> = 0.0</td></tr>
+<tr class="memdesc:ac1d6252e94840d797915ee185ec525ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul do poligono 2.  <a href="#ac1d6252e94840d797915ee185ec525ba">Mais...</a><br /></td></tr>
+<tr class="separator:ac1d6252e94840d797915ee185ec525ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e1d4787b9d859804d1452492b2ed26f"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a7e1d4787b9d859804d1452492b2ed26f">r3</a> = 1.0</td></tr>
+<tr class="memdesc:a7e1d4787b9d859804d1452492b2ed26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha do poligono 3.  <a href="#a7e1d4787b9d859804d1452492b2ed26f">Mais...</a><br /></td></tr>
+<tr class="separator:a7e1d4787b9d859804d1452492b2ed26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d5bd9ce63f102b4a928404581cc223"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a37d5bd9ce63f102b4a928404581cc223">g3</a> = 1.0</td></tr>
+<tr class="memdesc:a37d5bd9ce63f102b4a928404581cc223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde do poligono 3.  <a href="#a37d5bd9ce63f102b4a928404581cc223">Mais...</a><br /></td></tr>
+<tr class="separator:a37d5bd9ce63f102b4a928404581cc223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ce35ae9ed0d8d73d270fd3e0890153"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#af5ce35ae9ed0d8d73d270fd3e0890153">b3</a> = 0.0</td></tr>
+<tr class="memdesc:af5ce35ae9ed0d8d73d270fd3e0890153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul do poligono 3.  <a href="#af5ce35ae9ed0d8d73d270fd3e0890153">Mais...</a><br /></td></tr>
+<tr class="separator:af5ce35ae9ed0d8d73d270fd3e0890153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12606c0d5df7e0f6532a634f6a0ab310"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a12606c0d5df7e0f6532a634f6a0ab310">r4</a> = 1.0</td></tr>
+<tr class="memdesc:a12606c0d5df7e0f6532a634f6a0ab310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha do poligono 4.  <a href="#a12606c0d5df7e0f6532a634f6a0ab310">Mais...</a><br /></td></tr>
+<tr class="separator:a12606c0d5df7e0f6532a634f6a0ab310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba2e11b37ce73e90270e0a0df10c2e7"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a8ba2e11b37ce73e90270e0a0df10c2e7">g4</a> = 1.0</td></tr>
+<tr class="memdesc:a8ba2e11b37ce73e90270e0a0df10c2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde do poligono 4.  <a href="#a8ba2e11b37ce73e90270e0a0df10c2e7">Mais...</a><br /></td></tr>
+<tr class="separator:a8ba2e11b37ce73e90270e0a0df10c2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4503512f8ac986161e0e2c21e618d5e6"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a4503512f8ac986161e0e2c21e618d5e6">b4</a> = 0.0</td></tr>
+<tr class="memdesc:a4503512f8ac986161e0e2c21e618d5e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul do poligono 4.  <a href="#a4503512f8ac986161e0e2c21e618d5e6">Mais...</a><br /></td></tr>
+<tr class="separator:a4503512f8ac986161e0e2c21e618d5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19006854cb81041f929da093dd8d114"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#ac19006854cb81041f929da093dd8d114">rb1</a> = 0.0</td></tr>
+<tr class="memdesc:ac19006854cb81041f929da093dd8d114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha da bordado poligono 1.  <a href="#ac19006854cb81041f929da093dd8d114">Mais...</a><br /></td></tr>
+<tr class="separator:ac19006854cb81041f929da093dd8d114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e05435282c23959990c2e88d0643dad"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a6e05435282c23959990c2e88d0643dad">gb1</a> = 0.0</td></tr>
+<tr class="memdesc:a6e05435282c23959990c2e88d0643dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde da bordado poligono 1.  <a href="#a6e05435282c23959990c2e88d0643dad">Mais...</a><br /></td></tr>
+<tr class="separator:a6e05435282c23959990c2e88d0643dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fedfbc1126168efa724a197771f4ab3"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a8fedfbc1126168efa724a197771f4ab3">bb1</a> = 0.0</td></tr>
+<tr class="memdesc:a8fedfbc1126168efa724a197771f4ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul da bordado poligono 1.  <a href="#a8fedfbc1126168efa724a197771f4ab3">Mais...</a><br /></td></tr>
+<tr class="separator:a8fedfbc1126168efa724a197771f4ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e0874b3fc0c011a1d671b2a4873419"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#ae7e0874b3fc0c011a1d671b2a4873419">rb2</a> = 0.0</td></tr>
+<tr class="memdesc:ae7e0874b3fc0c011a1d671b2a4873419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha da borda do poligono 2.  <a href="#ae7e0874b3fc0c011a1d671b2a4873419">Mais...</a><br /></td></tr>
+<tr class="separator:ae7e0874b3fc0c011a1d671b2a4873419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3706a7c6482aefc6b2a6af7f3bd7623e"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a3706a7c6482aefc6b2a6af7f3bd7623e">gb2</a> = 0.0</td></tr>
+<tr class="memdesc:a3706a7c6482aefc6b2a6af7f3bd7623e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde da bordado poligono 2.  <a href="#a3706a7c6482aefc6b2a6af7f3bd7623e">Mais...</a><br /></td></tr>
+<tr class="separator:a3706a7c6482aefc6b2a6af7f3bd7623e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e4cf3ee17a07ec04f12af0fd910608"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a09e4cf3ee17a07ec04f12af0fd910608">bb2</a> = 0.0</td></tr>
+<tr class="memdesc:a09e4cf3ee17a07ec04f12af0fd910608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul da bordado poligono 2.  <a href="#a09e4cf3ee17a07ec04f12af0fd910608">Mais...</a><br /></td></tr>
+<tr class="separator:a09e4cf3ee17a07ec04f12af0fd910608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e81521cd3a1f28741d2b4e053d4170"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a18e81521cd3a1f28741d2b4e053d4170">rb3</a> = 0.0</td></tr>
+<tr class="memdesc:a18e81521cd3a1f28741d2b4e053d4170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha da borda do poligono 3.  <a href="#a18e81521cd3a1f28741d2b4e053d4170">Mais...</a><br /></td></tr>
+<tr class="separator:a18e81521cd3a1f28741d2b4e053d4170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bc02280b077d6b2bdcfea087936282"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#af7bc02280b077d6b2bdcfea087936282">gb3</a> = 0.0</td></tr>
+<tr class="memdesc:af7bc02280b077d6b2bdcfea087936282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde da bordado poligono 3.  <a href="#af7bc02280b077d6b2bdcfea087936282">Mais...</a><br /></td></tr>
+<tr class="separator:af7bc02280b077d6b2bdcfea087936282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1e021be17544c2c439235486de94e5"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a2b1e021be17544c2c439235486de94e5">bb3</a> = 0.0</td></tr>
+<tr class="memdesc:a2b1e021be17544c2c439235486de94e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul da bordado poligono 3.  <a href="#a2b1e021be17544c2c439235486de94e5">Mais...</a><br /></td></tr>
+<tr class="separator:a2b1e021be17544c2c439235486de94e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2021afc636a598ddefa052f105ac26"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a7f2021afc636a598ddefa052f105ac26">rb4</a> = 0.0</td></tr>
+<tr class="memdesc:a7f2021afc636a598ddefa052f105ac26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor vermelha da borda do poligono 4.  <a href="#a7f2021afc636a598ddefa052f105ac26">Mais...</a><br /></td></tr>
+<tr class="separator:a7f2021afc636a598ddefa052f105ac26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49538478ad764c09d426f31fa927f310"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a49538478ad764c09d426f31fa927f310">gb4</a> = 0.0</td></tr>
+<tr class="memdesc:a49538478ad764c09d426f31fa927f310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor verde da bordado poligono 4.  <a href="#a49538478ad764c09d426f31fa927f310">Mais...</a><br /></td></tr>
+<tr class="separator:a49538478ad764c09d426f31fa927f310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e2fbd0d7e51076eec35adcf128544b"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a44e2fbd0d7e51076eec35adcf128544b">bb4</a> = 0.0</td></tr>
+<tr class="memdesc:a44e2fbd0d7e51076eec35adcf128544b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cor azul da bordado poligono 4.  <a href="#a44e2fbd0d7e51076eec35adcf128544b">Mais...</a><br /></td></tr>
+<tr class="separator:a44e2fbd0d7e51076eec35adcf128544b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36df8626c7f5b98f50ac670d5f47ad57"><td class="memItemLeft" align="right" valign="top">GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Q8Selecao_8c.html#a36df8626c7f5b98f50ac670d5f47ad57">mudaBorda</a> = 0</td></tr>
+<tr class="memdesc:a36df8626c7f5b98f50ac670d5f47ad57"><td class="mdescLeft">&#160;</td><td class="mdescRight">define se a cor mudada é da borda ou do fundo  <a href="#a36df8626c7f5b98f50ac670d5f47ad57">Mais...</a><br /></td></tr>
+<tr class="separator:a36df8626c7f5b98f50ac670d5f47ad57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição Detalhada</h2>
+<div class="textblock"><p>Esse código, utilizando o programa preenchimento.c (dado em sala de aula) como referência, desenha numa janela com fundo branco, de dimensões 256x256 pixels, quatro polígonos com as mesmas coordenadas dos polígonos do programa de referência. </p>
+<p>Todos os polígonos devem estar inicialmente preenchidos de amarelo e com bordas pretas. Quando o usuário clicar com o botão esquerdo do mouse dentro de um dos polígonos, a cor de preechimento deste polígono deverá mudar para uma cor aleatória. Quando a tecla b for pressionada, o programa passará a mudar as cores das bordas e não mais dos fundos dos polígonos. Quando a tecla f for pressionada, o programa passará a mudar as cores dos fundos dos polígonos e não mais das bordas. </p><dl class="section author"><dt>Autor</dt><dd>George Araújo - <a href="#" onclick="location.href='mai'+'lto:'+'geo'+'rg'+'e.i'+'fr'+'n@g'+'ma'+'il.'+'co'+'m'; return false;">georg<span style="display: none;">.nosp@m.</span>e.if<span style="display: none;">.nosp@m.</span>rn@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a> </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>25/09/2016 </dd></dl>
+</div><h2 class="groupheader">Funções</h2>
+<a class="anchor" id="a72d3d2da5704bc93ed6cfe8ebcf896fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void desenhaBorda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função desenha as bordas a partir das coordenadas máximas e mínimas. </p>
+
+</div>
+</div>
+<a class="anchor" id="a40f7769e0779909aa80a7651ee0f8b71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void desenhaPoligono </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função desenha os polígonos a partir das coordenadas máximas e mínimas. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e5b20fed15743656bb6d2e6a6ea6269"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void display </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função callBack display desenha as pritivas openGL. </p>
+
+</div>
+</div>
+<a class="anchor" id="a02fd73d861ef2e4aabb38c0c9ff82947"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função inicializa propriedades de rendering. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef7ba2f69afb2d954545f64c7fe24b14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void keyboard </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função callBack keyboard trata entrada do telcado. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função principal. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab35b484f447d00f03a1fe1b9adc3d070"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void onClickMouse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função callBack onClickMouse trata entrada dos botões do mouse. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a class="anchor" id="ac23f97412ac466c7e1a6658c37a83758"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat b1 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul do poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac1d6252e94840d797915ee185ec525ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat b2 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul do poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="af5ce35ae9ed0d8d73d270fd3e0890153"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat b3 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul do poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4503512f8ac986161e0e2c21e618d5e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat b4 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul do poligono 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8fedfbc1126168efa724a197771f4ab3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat bb1 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul da bordado poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a09e4cf3ee17a07ec04f12af0fd910608"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat bb2 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul da bordado poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b1e021be17544c2c439235486de94e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat bb3 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul da bordado poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44e2fbd0d7e51076eec35adcf128544b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat bb4 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor azul da bordado poligono 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6637f2229ffbbe43aa5308779f466b43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat g1 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde do poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3f9826d70ceca0886522e84332cd2739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat g2 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde do poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37d5bd9ce63f102b4a928404581cc223"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat g3 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde do poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8ba2e11b37ce73e90270e0a0df10c2e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat g4 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde do poligono 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e05435282c23959990c2e88d0643dad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat gb1 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde da bordado poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3706a7c6482aefc6b2a6af7f3bd7623e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat gb2 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde da bordado poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7bc02280b077d6b2bdcfea087936282"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat gb3 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde da bordado poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a49538478ad764c09d426f31fa927f310"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat gb4 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor verde da bordado poligono 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="a36df8626c7f5b98f50ac670d5f47ad57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLint mudaBorda = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>define se a cor mudada é da borda ou do fundo </p>
+
+</div>
+</div>
+<a class="anchor" id="a1f71b495171fb688cd4f37b7582093a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat r1 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha do poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a66213c246779913c9484d2a7e57dc615"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat r2 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha do poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e1d4787b9d859804d1452492b2ed26f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat r3 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha do poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a12606c0d5df7e0f6532a634f6a0ab310"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat r4 = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha do poligono 4. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac19006854cb81041f929da093dd8d114"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat rb1 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha da bordado poligono 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae7e0874b3fc0c011a1d671b2a4873419"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat rb2 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha da borda do poligono 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="a18e81521cd3a1f28741d2b4e053d4170"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat rb3 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha da borda do poligono 3. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f2021afc636a598ddefa052f105ac26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat rb4 = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cor vermelha da borda do poligono 4. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

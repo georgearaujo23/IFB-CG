@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['onclickmouse',['onClickMouse',['../Q8Selecao_8c.html#ab35b484f447d00f03a1fe1b9adc3d070',1,'Q8Selecao.c']]],
+  ['origemx',['origemX',['../priCirculo_8c.html#a5676d70f67f069afbf9f6feb65fac5e1',1,'origemX():&#160;priCirculo.c'],['../priElipse_8c.html#a5676d70f67f069afbf9f6feb65fac5e1',1,'origemX():&#160;priElipse.c'],['../priArco_8c.html#aae365b9c37bbfe212e77abd7d1364783',1,'origemx():&#160;priArco.c'],['../priArcoPreenchido_8c.html#aae365b9c37bbfe212e77abd7d1364783',1,'origemx():&#160;priArcoPreenchido.c'],['../priCircunferencia_8c.html#aae365b9c37bbfe212e77abd7d1364783',1,'origemx():&#160;priCircunferencia.c'],['../priPizza_8c.html#aae365b9c37bbfe212e77abd7d1364783',1,'origemx():&#160;priPizza.c']]],
+  ['origemy',['origemy',['../priArco_8c.html#aeb2caf04da57e6fa9c329d3170cd2be3',1,'origemy():&#160;priArco.c'],['../priArcoPreenchido_8c.html#aeb2caf04da57e6fa9c329d3170cd2be3',1,'origemy():&#160;priArcoPreenchido.c'],['../priCircunferencia_8c.html#aeb2caf04da57e6fa9c329d3170cd2be3',1,'origemy():&#160;priCircunferencia.c'],['../priPizza_8c.html#aeb2caf04da57e6fa9c329d3170cd2be3',1,'origemy():&#160;priPizza.c'],['../priCirculo_8c.html#a647ad06dd03308acad2627b1b05eaa4a',1,'origemY():&#160;priCirculo.c'],['../priElipse_8c.html#a647ad06dd03308acad2627b1b05eaa4a',1,'origemY():&#160;priElipse.c']]]
+];
